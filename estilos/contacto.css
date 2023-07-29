@@ -1,0 +1,88 @@
+/*Disenos para el header*/
+.container-fluid {
+    padding: 10px;
+}
+
+.container-fluid .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/*Disenos para el main*/
+
+.titulo {
+    display: flex;
+    text-align: center;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    background-color: rgba(58, 86, 125, .1);
+}
+.titulo .subtitulo{
+    text-align: justify;
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+
+.cuerpo .input-container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*Disenos para el Footer*/
+.contenedor {
+    background-color: rgba(58, 86, 125, .1);
+}
+
+.contenedor .fila {
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contenedor .derechos {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+.info-redes{
+    display: flex;
+}
+
+.info-redes a{
+    margin: 0 20px;
+    width: 10px;
+    font-style: none;
+    color: black;
+}
