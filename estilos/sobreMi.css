@@ -24,6 +24,13 @@
     text-decoration: underline;
     color: black;
 }
+
+.sct-navegacion {
+    position: fixed;
+    top: 0;
+    width:100%;
+    background-color: #fff;
+}
 /*Disenos para el Main*/
 .sct-titulo {
     padding-top: 100px;

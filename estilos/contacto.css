@@ -26,6 +26,12 @@
     color: black;
 }
 
+.sct-navegacion {
+    position: fixed;
+    top: 0;
+    width:100%;
+    background-color: #fff;
+}
 /*Disenos para el main*/
 
 .titulo {
@@ -51,9 +57,19 @@
 }
 
 
-.cuerpo .input-container{
+#main-form .input-container{
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.input-container::placeholder{
+    color: black;
+}
+
+#submit-btn{
+    color: #fff;
+    background-color: #073256;
+    border-color: #073256;
 }
 
 /*Disenos para el Footer*/
